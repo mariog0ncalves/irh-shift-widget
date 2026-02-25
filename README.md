@@ -1,6 +1,7 @@
 <p align="center">
     <img src="icons/ico.png">
 </p>
+
 # ⏱ iRH Shift Widget — Your Shift Time Companion!
 
 **Never lose track of your work hours again!** iRH Shift Widget is a sleek browser extension that automatically calculates how long you've been working and tells you exactly when your shift ends. Built for the [iRH](https://irh.pt) clocking system, it turns raw punch-in/punch-out data into a beautiful, real-time dashboard — right on the page!
