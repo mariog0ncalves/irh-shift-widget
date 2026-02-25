@@ -8,6 +8,6 @@
   "main": "content.js",
   "scripts": {
     "build:chrome": "rm -rf manifest.json && cp chrome-manifest.json manifest.json  -f",
-    "build:firefox": "rm -rf manifest.json && cp ff-manifest.json manifest.json -f && rm -rf irh-counter.xpi && zip -r irh-counter.xpi *"
+    "build:firefox": "rm -rf manifest.json && cp ff-manifest.json manifest.json -f && rm -rf irh-counter.xpi && zip -r irh-counter.xpi *  -x \".git\" -x \"chrome-manifest.json\" "
   }
 }
