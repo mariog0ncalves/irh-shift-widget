@@ -39,7 +39,7 @@ The panel auto-refreshes every **30 seconds** so the numbers stay accurate throu
 ## 🛠 Installation
 
 ### Firefox (Developer Edition Only)
-1. Download the latest `irh-counter.xpi` from this repo.
+1. Download the latest `irh-counter.xpi` from this repo latest [release](https://github.com/mariog0ncalves/irh-shift-widget/releases/latest).
 2. Open Firefox and go to `about:config`.
 3. Swap flag `xpinstall.signatures.required` to ``false``.
 2. Open Firefox and go to `about:addons`.
@@ -47,7 +47,7 @@ The panel auto-refreshes every **30 seconds** so the numbers stay accurate throu
 4. Select the `.xpi` file — done!
 
 ### Chrome
-1. Clone or download this repo.
+1. Clone or download this repo latest [release](https://github.com/mariog0ncalves/irh-shift-widget/releases/latest).
 2. Run `npm run build:chrome` to generate the manifest.
 3. Open Chrome and navigate to `chrome://extensions`.
 4. Enable **Developer mode** (top right).
@@ -55,7 +55,7 @@ The panel auto-refreshes every **30 seconds** so the numbers stay accurate throu
 
 ---
 
-## 📦 Build Scripts
+## 📦 Build from Scratch Scripts
 
 ```bash
 # Prepare manifest for Chrome
@@ -69,7 +69,7 @@ npm run build:firefox
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by **notmario@acin.pt**
+Made with ❤️ by **drajacinta@imed.pt**
 
 ---
 
