@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "iRH Shift Widget",
+  "version": "1.0",
+  "description": "Shift Widget for iRH",
+
+  "icons": {
+    "128": "icons/ico.png"
+  },
+
+  "action": {
+    "default_icon": "icons/ico.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://irh.pt/picagens/picagens_c"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
