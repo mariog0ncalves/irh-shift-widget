@@ -9,7 +9,7 @@
     const existing = document.getElementById('shift-timer-panel');
     if (existing) existing.remove();
 
-    const rows = Array.from(listagemPicagens.querySelectorAll('tbody tr'));
+    const rows = Array.from(listagemPicagens.querySelectorAll('tbody tr')).reverse();
     let totalSeconds = 0;
     let entradaSeconds = 0;
     const interpretedTypes = [];
