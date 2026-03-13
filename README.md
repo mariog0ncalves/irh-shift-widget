@@ -47,8 +47,8 @@ The panel auto-refreshes every **30 seconds** so the numbers stay accurate throu
 4. Select the `.xpi` file — done!
 
 ### Chrome
-1. Clone or download this repo latest [release](https://github.com/mariog0ncalves/irh-shift-widget/releases/latest).
-2. Run `npm run build:chrome` to generate the manifest.
+1. Download this repo latest [release](https://github.com/mariog0ncalves/irh-shift-widget/releases/latest).
+2. Unzip repo onto a folder.
 3. Open Chrome and navigate to `chrome://extensions`.
 4. Enable **Developer mode** (top right).
 5. Click **Load unpacked** and select the project folder.
