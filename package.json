@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "content.js",
   "scripts": {
-    "build:chrome": "rm -rf manifest.json && cp chrome-manifest.json manifest.json  -f",
-    "build:firefox": "rm -rf manifest.json && cp ff-manifest.json manifest.json -f && rm -rf irh-counter.xpi && zip -r irh-counter.xpi *  -x \".git\" -x \"chrome-manifest.json\" "
+    "build:chrome": "rm -rf manifest.json && cp chrome-manifest.json manifest.json  -f && rm -rf irh-plus-widget-chrome-vx.x.x.zip && zip -r irh-plus-widget-chrome-vx.x.x.zip *  -x \".git\" -x \"ff-manifest.json\" -x \"chrome-manifest.json\" ",
+    "build:firefox": "rm -rf manifest.json && cp ff-manifest.json manifest.json -f && rm -rf irh-plus-widget-firefox-vx.x.x.xpi && zip -r irh-plus-widget-firefox-vx.x.x.xpi *  -x \".git\" -x \"ff-manifest.json\" -x \"chrome-manifest.json\" "
   }
 }

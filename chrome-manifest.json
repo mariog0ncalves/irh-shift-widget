@@ -17,7 +17,7 @@
     },
     {
       "matches": ["https://irh.pt/assiduidade/assiduidade_c"],
-      "js": ["utils.js", "assiduidade.js"],
+      "js": ["utils.js", "attendance.js"],
       "run_at": "document_idle"
     }
   ]
