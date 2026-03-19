@@ -1,21 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "iRH Shift Widget",
-  "version": "1.0.2",
-  "description": "Shift Widget for iRH",
-
+  "name": "iRH+ Widget",
+  "version": "1.0.3",
+  "description": "Widget for iRH+ to display shifts and assiduity information.",
   "icons": {
     "128": "icons/ico.png"
   },
-
   "action": {
     "default_icon": "icons/ico.png"
   },
-
   "content_scripts": [
     {
       "matches": ["https://irh.pt/picagens/picagens_c"],
-      "js": ["content.js"],
+      "js": ["utils.js", "shift.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://irh.pt/assiduidade/assiduidade_c"],
+      "js": ["utils.js", "assiduidade.js"],
       "run_at": "document_idle"
     }
   ]
