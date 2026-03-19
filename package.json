@@ -1,7 +1,7 @@
 {
-  "name": "irh-shift-widget",
-  "version": "1.0.0",
-  "description": "iRH Shift Widget Extension",
+  "name": "irh-plus-widget",
+  "version": "1.1.0",
+  "description": "iRH Plus Widget Extension",
   "license": "ISC",
   "author": "drajacinta@imed.pt",
   "type": "commonjs",
